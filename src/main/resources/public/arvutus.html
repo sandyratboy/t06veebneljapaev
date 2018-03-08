@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Arvutusleht</title>
+        <meta charset="UTF-8">
+		<script>
+		  function lisKast(){
+		    document.getElementById("sisestus").innerHTML+=
+			  "<input type='number' /><br />"
+	    }
+		function nupuVajutus(){
+		   let kastid=document.getElementId("sisestus").getElementsByTagName("input");
+		   if(kastid[kastid.length-1].value.trim().length>0){
+		    lisaKast();
+			}
+		function saadaAndmed(){
+		let kastid=document.getElementById("sisestus").getElementsByTagName("input");
+		alert(kastid.map(kast => kast.value).join(","))
+		}
+		function kuvaVastus(){
+		  if(xhr.readyState==4){
+		    document.getElement
+		}
+		</script>
+    </head>
+    <body>
+	    <h1>Arvutamine</h1>
+        <div id="sisestus">
+		
+		</div>
+    </body>
+</html>
